@@ -39,7 +39,7 @@ const lightTheme = {
   text: '#000000',
   textSecondary: '#666666',
   border: '#e0e0e0',
-  transparent: 'rgba(0, 0, 0, 0.1)'
+  transparent: 'rgba(255, 255, 255)'
 };
 
 const AppContainer = styled.div`

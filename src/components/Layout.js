@@ -58,7 +58,7 @@ const BrandLogo = styled.img`
   margin: 1rem auto;
   display: block;
   position: fixed;
-  top: ${props => props.isHome && !props.showContent ? '50%' : '1rem'};
+  top: ${props => props.isHome && !props.showContent ? '50%' : '-1rem'};
   left: 50%;
   transform: ${props => props.isHome && !props.showContent ? 
     'translate(-50%, -50%)' : 'translateX(-50%)'};

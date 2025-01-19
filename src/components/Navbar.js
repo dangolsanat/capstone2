@@ -10,7 +10,7 @@ const Nav = styled.nav`
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.5);
   color: ${props => props.theme.text};
   position: relative;
   z-index: 10;
