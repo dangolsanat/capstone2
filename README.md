@@ -1,12 +1,24 @@
-# Getting Started with Create React App
+# Capstone Project Two - Cocktail App
+
+This is a cocktail recipe application that allows users to search for cocktails, save their favorites, and manage their cocktail recipes. The app is built with React and uses Supabase for authentication and data storage.
+
+## Overview
+The Cocktail App is a database-driven website built with React that uses the CocktailDB API for cocktail data. Users can:
+- Search for cocktails
+- View detailed recipes
+- Save favorite cocktails
+- Switch between light and dark themes
+- Create an account and manage their profile
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+#### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -14,12 +26,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+#### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+#### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
