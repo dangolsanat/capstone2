@@ -1,82 +1,113 @@
-# Capstone Project Two - Cocktail App
+# 🍸 MixMaster - Your Ultimate Cocktail Companion
 
-This is a cocktail recipe application that allows users to search for cocktails, save their favorites, and manage their cocktail recipes. The app is built with React and uses Supabase for authentication and data storage.
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://capstone2-coral.vercel.app/)
+[![React](https://img.shields.io/badge/React-18-blue)](https://reactjs.org/)
+[![Supabase](https://img.shields.io/badge/Supabase-Database-green)](https://supabase.com/)
+[![Styled Components](https://img.shields.io/badge/Styled-Components-pink)](https://styled-components.com/)
 
-## Overview
-The Cocktail App is a database-driven website built with React that uses the CocktailDB API for cocktail data. Users can:
-- Search for cocktails
-- View detailed recipes
-- Save favorite cocktails
-- Switch between light and dark themes
-- Create an account and manage their profile
+## 🌟 Project Overview
 
-## Getting Started with Create React App
+MixMaster is a modern, feature-rich cocktail recipe application that helps users discover, save, and manage their favorite cocktail recipes. Built with React and powered by Supabase, this application demonstrates advanced front-end development skills and modern web development best practices.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![MixMaster Demo](https://your-image-url.com/demo.gif)
 
-### Available Scripts
+## ✨ Key Features
 
-In the project directory, you can run:
+- 🔍 **Smart Search**: Real-time cocktail search with instant results
+- 🎨 **Dynamic Theming**: Toggle between light and dark modes for optimal viewing
+- 🔐 **User Authentication**: Secure login/signup powered by Supabase
+- 💾 **Favorites System**: Save and manage your favorite cocktails
+- 📱 **Responsive Design**: Seamless experience across all devices
+- 🎯 **Accessibility**: WCAG compliant with keyboard navigation support
 
-#### `npm start`
+## 🛠️ Technical Achievements
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Architecture & Design
+- **Component Architecture**: Modular, reusable components following React best practices
+- **Context API**: Global state management for themes and authentication
+- **Custom Hooks**: Reusable logic for data fetching and state management
+- **Styled Components**: Dynamic styling with theme support
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Performance
+- **Lazy Loading**: Optimized bundle size with React.lazy and Suspense
+- **Memoization**: Strategic use of useMemo and useCallback
+- **Image Optimization**: Responsive images with lazy loading
 
-#### `npm test`
+### Testing & Quality
+- **Jest & React Testing Library**: Comprehensive test coverage
+- **Error Boundaries**: Graceful error handling
+- **PropTypes**: Runtime type checking for props
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Getting Started
 
-#### `npm run build`
+1. Clone the repository:
+\`\`\`bash
+git clone https://github.com/dangolsanat/capstone2.git
+\`\`\`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Install dependencies:
+\`\`\`bash
+cd capstone2
+npm install
+\`\`\`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Set up environment variables:
+\`\`\`bash
+REACT_APP_SUPABASE_URL=your_supabase_url
+REACT_APP_SUPABASE_ANON_KEY=your_supabase_key
+\`\`\`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Run the development server:
+\`\`\`bash
+npm start
+\`\`\`
 
-### `npm run eject`
+## 🧪 Testing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Run the test suite:
+\`\`\`bash
+npm test
+\`\`\`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📱 Mobile-First Approach
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The application follows a mobile-first design philosophy:
+- Responsive grid layouts
+- Touch-friendly interface
+- Adaptive typography
+- Optimized images for different screen sizes
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🔒 Security Features
 
-## Learn More
+- **JWT Authentication**: Secure token-based authentication
+- **Protected Routes**: Authorization-based access control
+- **Input Validation**: Client-side and server-side validation
+- **Environment Variables**: Secure configuration management
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🎯 Future Enhancements
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [ ] Social sharing functionality
+- [ ] Custom cocktail creation
+- [ ] Recipe rating system
+- [ ] Ingredient inventory tracking
+- [ ] Cocktail recommendations based on available ingredients
 
-### Code Splitting
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-### Analyzing the Bundle Size
+## 📄 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-### Making a Progressive Web App
+## 🙏 Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [CocktailDB API](https://www.thecocktaildb.com/) for the extensive cocktail database
+- [Supabase](https://supabase.com/) for the robust backend solution
+- [Vercel](https://vercel.com/) for hosting and continuous deployment
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div align="center">
+Made with 🍸 by Sanat Dangol
+</div>
